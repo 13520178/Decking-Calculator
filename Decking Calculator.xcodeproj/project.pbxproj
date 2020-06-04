@@ -3,27 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		028E3CF29A8FF08EE46A3CED /* Pods_Decking_Calculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57385B4B8E7396F4685A13AF /* Pods_Decking_Calculator.framework */; };
 		2A75F53C2487883A00BF594A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A75F53B2487883A00BF594A /* AppDelegate.swift */; };
-		2A75F53E2487883A00BF594A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A75F53D2487883A00BF594A /* SceneDelegate.swift */; };
 		2A75F5402487883A00BF594A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A75F53F2487883A00BF594A /* ViewController.swift */; };
 		2A75F5432487883A00BF594A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A75F5412487883A00BF594A /* Main.storyboard */; };
 		2A75F5452487883D00BF594A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A75F5442487883D00BF594A /* Assets.xcassets */; };
 		2A75F5482487883D00BF594A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A75F5462487883D00BF594A /* LaunchScreen.storyboard */; };
+		2A75F556248792DC00BF594A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A75F555248792DC00BF594A /* StoreKit.framework */; };
+		2A75F5582487938600BF594A /* InfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A75F5572487938600BF594A /* InfoController.swift */; };
+		2A75F55A2487939300BF594A /* ResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A75F5592487939300BF594A /* ResultController.swift */; };
+		2A75F55F248793CB00BF594A /* CurrencyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A75F55D248793CB00BF594A /* CurrencyService.swift */; };
+		2A75F5612488972D00BF594A /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A75F5602488972D00BF594A /* Tools.swift */; };
+		2A75F56324889DF900BF594A /* AlertService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A75F56224889DF900BF594A /* AlertService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2A75F5382487883A00BF594A /* Decking Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Decking Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A75F5382487883A00BF594A /* Decking Calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Decking Calc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A75F53B2487883A00BF594A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2A75F53D2487883A00BF594A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2A75F53F2487883A00BF594A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2A75F5422487883A00BF594A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2A75F5442487883D00BF594A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A75F5472487883D00BF594A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A75F5492487883D00BF594A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A75F555248792DC00BF594A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		2A75F5572487938600BF594A /* InfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoController.swift; sourceTree = "<group>"; };
+		2A75F5592487939300BF594A /* ResultController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultController.swift; sourceTree = "<group>"; };
+		2A75F55D248793CB00BF594A /* CurrencyService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyService.swift; sourceTree = "<group>"; };
+		2A75F5602488972D00BF594A /* Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
+		2A75F56224889DF900BF594A /* AlertService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertService.swift; sourceTree = "<group>"; };
+		52D0E40D324E46AC8C44A48E /* Pods-Decking Calculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Decking Calculator.debug.xcconfig"; path = "Target Support Files/Pods-Decking Calculator/Pods-Decking Calculator.debug.xcconfig"; sourceTree = "<group>"; };
+		57385B4B8E7396F4685A13AF /* Pods_Decking_Calculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Decking_Calculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F584E6B19A270EFE13485C60 /* Pods-Decking Calculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Decking Calculator.release.xcconfig"; path = "Target Support Files/Pods-Decking Calculator/Pods-Decking Calculator.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,24 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A75F556248792DC00BF594A /* StoreKit.framework in Frameworks */,
+				028E3CF29A8FF08EE46A3CED /* Pods_Decking_Calculator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D2B30E33F2F17A5267E4130 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52D0E40D324E46AC8C44A48E /* Pods-Decking Calculator.debug.xcconfig */,
+				F584E6B19A270EFE13485C60 /* Pods-Decking Calculator.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		2A75F52F2487883A00BF594A = {
 			isa = PBXGroup;
 			children = (
 				2A75F53A2487883A00BF594A /* Decking Calculator */,
 				2A75F5392487883A00BF594A /* Products */,
+				2A75F554248792DC00BF594A /* Frameworks */,
+				0D2B30E33F2F17A5267E4130 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
 		2A75F5392487883A00BF594A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2A75F5382487883A00BF594A /* Decking Calculator.app */,
+				2A75F5382487883A00BF594A /* Decking Calc.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +83,44 @@
 		2A75F53A2487883A00BF594A /* Decking Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				2A75F55B248793BC00BF594A /* Service */,
+				2A75F54F2487910E00BF594A /* Controller */,
 				2A75F53B2487883A00BF594A /* AppDelegate.swift */,
-				2A75F53D2487883A00BF594A /* SceneDelegate.swift */,
-				2A75F53F2487883A00BF594A /* ViewController.swift */,
 				2A75F5412487883A00BF594A /* Main.storyboard */,
 				2A75F5442487883D00BF594A /* Assets.xcassets */,
 				2A75F5462487883D00BF594A /* LaunchScreen.storyboard */,
 				2A75F5492487883D00BF594A /* Info.plist */,
 			);
 			path = "Decking Calculator";
+			sourceTree = "<group>";
+		};
+		2A75F54F2487910E00BF594A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2A75F53F2487883A00BF594A /* ViewController.swift */,
+				2A75F5592487939300BF594A /* ResultController.swift */,
+				2A75F5572487938600BF594A /* InfoController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2A75F554248792DC00BF594A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A75F555248792DC00BF594A /* StoreKit.framework */,
+				57385B4B8E7396F4685A13AF /* Pods_Decking_Calculator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A75F55B248793BC00BF594A /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				2A75F56224889DF900BF594A /* AlertService.swift */,
+				2A75F55D248793CB00BF594A /* CurrencyService.swift */,
+				2A75F5602488972D00BF594A /* Tools.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +130,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A75F54C2487883D00BF594A /* Build configuration list for PBXNativeTarget "Decking Calculator" */;
 			buildPhases = (
+				786BD26B4F603B62AB6A9EEA /* [CP] Check Pods Manifest.lock */,
 				2A75F5342487883A00BF594A /* Sources */,
 				2A75F5352487883A00BF594A /* Frameworks */,
 				2A75F5362487883A00BF594A /* Resources */,
+				EF82E298EBF07DFBFE1C900F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -84,7 +142,7 @@
 			);
 			name = "Decking Calculator";
 			productName = "Decking Calculator";
-			productReference = 2A75F5382487883A00BF594A /* Decking Calculator.app */;
+			productReference = 2A75F5382487883A00BF594A /* Decking Calc.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -133,14 +191,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		786BD26B4F603B62AB6A9EEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Decking Calculator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF82E298EBF07DFBFE1C900F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Decking Calculator/Pods-Decking Calculator-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Decking Calculator/Pods-Decking Calculator-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Decking Calculator/Pods-Decking Calculator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2A75F5342487883A00BF594A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A75F55A2487939300BF594A /* ResultController.swift in Sources */,
 				2A75F5402487883A00BF594A /* ViewController.swift in Sources */,
+				2A75F56324889DF900BF594A /* AlertService.swift in Sources */,
+				2A75F55F248793CB00BF594A /* CurrencyService.swift in Sources */,
 				2A75F53C2487883A00BF594A /* AppDelegate.swift in Sources */,
-				2A75F53E2487883A00BF594A /* SceneDelegate.swift in Sources */,
+				2A75F5612488972D00BF594A /* Tools.swift in Sources */,
+				2A75F5582487938600BF594A /* InfoController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,17 +386,20 @@
 		};
 		2A75F54D2487883D00BF594A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52D0E40D324E46AC8C44A48E /* Pods-Decking Calculator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3Y33U42327;
 				INFOPLIST_FILE = "Decking Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "Phan-Nhat-Dang.Decking-Calculator";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Decking Calc";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,17 +407,20 @@
 		};
 		2A75F54E2487883D00BF594A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F584E6B19A270EFE13485C60 /* Pods-Decking Calculator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3Y33U42327;
 				INFOPLIST_FILE = "Decking Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "Phan-Nhat-Dang.Decking-Calculator";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Decking Calc";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
